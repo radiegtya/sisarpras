@@ -168,5 +168,9 @@ class ComplaintController extends Controller {
             Yii::app()->end();
         }
     }
+    
+    public function createByMe(){
+        echo "this function was craeted by ega wachid radiegtya";
+    }
 
 }
